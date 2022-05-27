@@ -6,17 +6,9 @@
 body{
 	font-family: 'Roboto Slab', serif;
 }
-/**************************/
 .imglogo img{
 	object-fit: contain;
 }
-/*****************************/
-
-
-
-
-
-/* New chengw */
 
 .top-header{
 	background-color:#f75e61;
@@ -457,6 +449,7 @@ button.crd_btn_2:hover{
 		background-size: cover;
 		background-position: center;
 		height: 15rem;
+		margin-top: 3rem;
 }
 .nube_txt_content{
 	padding-top:5rem;
@@ -484,26 +477,29 @@ button.crd_btn_2:hover{
 .letest_donation_section{
 	  margin-top: 5rem;
 }
-.letest{
-	text-align:center;
-	font-weight:bold;
-	border-width:3px;
+.lest_head_txt{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 0px 20px;
+    color: #000;
+    font-size: 32px;
+    position: relative;
 }
-.letest::before{
-				content:"";
-				border-top: 3px solid #EC5757;
-				width: 40px;
-				height: 55px;
-				position: absolute;
-				left: 48%;
-				z-index:1;
-				margin-top: 40px;	
+.lest_head_txt::before{
+	content: "";
+    border-top: 3px solid #f75e61;
+    width: 100px;
+    height: 55px;
+    position: absolute;
+    left: 46%;
+    top: 2.5rem;
+    z-index: 1;	
 		}
-.letestpara{
-	padding-top: 50px;
+.lest_prg_txt{
+	padding-top:20px;
 	font-weight: normal;
 	text-align: center;
-	margin-bottom:80px; 
+	margin-bottom: 3.5rem; 
+	font-family: 'Roboto', sans-serif;
 }
 .donate-box{
 	background-color:#ffff;
@@ -532,8 +528,7 @@ button.crd_btn_2:hover{
 .image{
 		margin-top: 0px;
 }
-.babaphoto{
-			
+.clnt_pic{
 			width: 100px !important;
     		height: 100px;
     		text-align: center;
@@ -541,17 +536,15 @@ button.crd_btn_2:hover{
     		border:1px solid #eee;
 			border-radius: 50%;
 			padding: 5px;
-
-    		
 }
-.babaname{
+.clnt_name{
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
 	padding-top: 20px;
 	font-size: 20px;
 }
-.company{
+.cmpny_name{
 		font-weight: bold;
 		text-align: center;
 }
@@ -567,10 +560,9 @@ button.crd_btn_2:hover{
 			border-bottom: 4px solid #f75e61;
 			padding-bottom: 30px;
 }
-/*khattam*/
+/*********************************************************************************/
 .upcoming{
 	text-align:center; 
-
 }
 .upcom{
 		font-weight: bold;
@@ -596,52 +588,61 @@ button.crd_btn_2:hover{
 		height: 250px;
 		width: 100%;
 }
-.donationdata{
-	font-weight: bold;
 
-}
 /*chaina banner=good boy two pic (>) */
-.chainabanner{
-	margin-top:100px;
-	
+.upcom_event_wrapper{
+	margin-top: 5rem;
 }
-.educationpara{
-	font-weight: normal;
+.upcom_event_head {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 0px 30px;
+    color: #000;
+    font-size: 32px;
+    position: relative;
 }
-.timejune{
-			padding-left:10px; 
-			font-weight: normal;
-			color:#000000;
-			font-size: 14px;
+.upcom_event_head::before{
+    content: "";
+    border-top: 3px solid #f75e61;
+    width: 100px;
+    height: 55px;
+    position: absolute;
+    left: 46%;
+    top: 45px;
+    z-index: 1;
 }
-.conference{
-			padding-left:10px; 
-			font-weight: normal;
-			color:#000000;
-			font-size: 14px;
+.upcom_event_prgp {
+    text-align: center;
+    margin: 0px 0px 50px;
+    color: #000;
 }
-.clockloca{
-			color:#EB4C4C;
-			font-weight:bold;
-			font-size: 17px;
-}
-.enrollbtn1{
-	margin-top: 30px;
-	padding: 8px 20px 8px 20px;
-	background-color:#ffff;
-	font-weight: bold;
-}
-.enrollbtn2{
-	margin-top: 30px;
-	padding: 8px 22px 8px 22px;
-	background-color:#EB4C4C;
-	border-color:#EB4C4C;
-	color: #ffff;
-	font-weight: bold;
-}
-/*chaina banner=good boy two pic(<) */
+.people_head_txt{
+	color: #000;
+    font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
 
-/*View All Button Center(>)*/
+}
+.people_prgp_txt{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #000;
+}
+.upcmg_txt_content i{
+	color: #f75e61;
+}
+.upcmg_txt_content button{
+	border: none;
+    background-color: #f75e61;
+    color: #ffff;
+    padding: 8px 15px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.upcmg_txt_content button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 1s;
+}
 .viewall{
 			text-align: center;
 			margin-top: 90px;
@@ -701,7 +702,7 @@ button.crd_btn_2:hover{
 				    left: -192px;
 				  	margin-left: -2px;
 			  	}
-.samecompany{
+.samecmpny_name{
 			font-weight: normal;
 			color: #ffff;
 			text-transform: capitalize;
