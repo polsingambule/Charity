@@ -155,6 +155,8 @@
             </div>
           </div>
 <!-- ******************************************************************************* -->
+<button onclick="topFunction()" id="scroll_btn" title="Go to top"><img src="images/top_arrow.png"></button>          
+<!-- ******************************************************************************* -->
 <div class="heading_with_txt_wrapper">
   <div class="container">
     <div class="row">
@@ -694,6 +696,24 @@
 <script type="text/javascript" src="js/wow.min.js"></script>
 <script>
   new WOW().init();
+</script>
+
+<script>
+var mybutton = document.getElementById("scroll_btn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
+}
 </script>
 
 </body>
