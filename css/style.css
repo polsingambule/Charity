@@ -24,14 +24,12 @@ body{
 
 }
 .top-left ul li a {
-
-	color: #FFFFFF;
+	color: #fff;
 	text-decoration: none;
 }
 
 .top-left ul li a i{
 	margin-right: 5px;
-
 }
 
 .top-right{
@@ -53,31 +51,12 @@ body{
 .top-right ul li a i{
 					margin-right: 5px;
 					color: #ffff;
-
+					background-color:#000;
+					padding: 5px;
 }
-
-.top-right ul li a .ftag{
-	color:#fff;
-	background-color: red;
-	padding: 5px 10px 5px 10px;
-
-} 
-.top-right ul li a .ttag{
-	color:#fff;
-	background-color:#000 ;
-	padding: 5px 10px 5px 10px;
-}
-.top-right ul li a .ytag{
-	color:#fff;
-	background-color:#000 ;
-	padding: 5px 10px 5px 10px;
-
-}
-.top-right ul li a .ptag{
-
-	color:#fff;
-	background-color:#000 ;
-	padding: 5px 10px 5px 10px;
+.top-right ul li a i:hover{
+					background-color:#f75e61;
+					transition: 0.5s;
 }
 .menu-bar{
 		background-color:#000;
@@ -104,7 +83,7 @@ body{
 
 }
 .home-banner{
-	background-image: url("../images/slide2.jpg");
+	background-image: url("../images/banner.jpg");
 	width:100%;
 	height: 624px;
 }
@@ -643,161 +622,161 @@ button.crd_btn_2:hover{
     color: #fff;
     transition: 1s;
 }
-.viewall{
-			text-align: center;
-			margin-top: 90px;
-
+.up_et_cont_btn{
+	text-align: center;
+	margin-top: 3rem;
 }
-.viewallbtn{
-	background-color: #EB4C4C;
-	padding: 8px 50px 8px 50px; 
-	border:none;
-	font-weight: bold;
-	color: #ffff;
+.up_et_cont_btn button{
+	border: none;
+	background-color:#f75e61;
+	color:#fff;
+    padding: 8px 15px;
+    font-family: 'Montserrat', sans-serif;
 }
-/*View All Button Center(<)*/
-.datathreei{
-	 		background-image:url(goals2.png);
+.up_et_cont_btn button:hover{
+	border: none;
+	background-color:#000;
+	transition: 1s;
+}
+.donatorssay_section{
+	 		background-image:url(../images/donatossay_back.png);
 			background-repeat: no-repeat;
 			background-size: cover;
 			height: 550px;
 			margin-top: 90px;
 }
-.whatour{
+.donatorssay_section h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
 	text-align: center;
-	padding-top: 80px;
-	font-weight: bold;
-	color:#fff;
-	padding-bottom: 50px;
+	padding: 60px 0px 40px;
+	position: relative;
 }
-.whatour::before{
-				content:"";
-				border-top: 3px solid #ffff;
-				width: 40px;
-				height: 55px;
-				position: absolute;
-				left: 48%;
-				z-index:1;
-				margin-top: 40px;	
+.donatorssay_section h2::before{
+    content: "";
+    border-top: 3px solid #ffff;
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    left: 46%;
+    top: 100px;
+    z-index: 1;
 }
-.paragrapone{
-	font-weight: normal;
-	border:5px solid #ffff;
-	background-color: #ffff;
-	padding: 30px 10px 30px 10px; 
+.donsay_column p{
+		color: #000;
+		background-color: #fff;
+    	padding: 30px 30px;
+    	font-family: 'Roboto', sans-serif;
 }
-.quatation{
-	font-weight: bold;
-	font-size: 20px;
-	padding-right: 5px;
-	color:#EB4C4C;
+.donsay_column p i{
+	color:#f75e61;
+    font-size: 30px;
+    padding-right: 5px;
 }
-.paragrapone::after{
+.donsay_column p::after{
 				    position:relative;
 				    content: '';
 				    border-left: 8px solid transparent;
 				    border-right: 8px solid transparent;
 				    border-top: 16px solid #ffff;
-				    bottom: -68px;
-				    left: -192px;
+				    bottom: -65px;
+    				left: -200px;
 				  	margin-left: -2px;
 			  	}
-.samecmpny_name{
-			font-weight: normal;
-			color: #ffff;
-			text-transform: capitalize;
-			margin-top:-8px; 
-
-}
-.namejohn{
-			text-transform: uppercase;
-			color:#ffff;
-			padding-top:10px; 
-}
-/*next page*/
-
-.latestnews{
-			text-transform: uppercase;
-			font-weight: bold;
-			padding-top: 60px;		
-}
-.latestnews::before{
-				content:"";
-				border-top: 3px solid #EC5757;
-				width: 40px;
-				height: 55px;
-				position: absolute;
-				left: 48%;
-				z-index:1;
-				margin-top: 40px;	
-}
-.latestnewspara1{
-	text-align: center;
-	font-weight: normal;
-}
-.shelter{
-		text-transform: uppercase;
-		text-align:left;
-		margin-top: 20px;
-}
-.LNPdatetime{
-	margin-right:40px;
-}
-.LNPdatetime::before{
-				content:"";
-				border-top: 3px solid #eeee;
-				width: 350px;
-				height: 55px;
-				position: absolute;
-				left: auto;
-				z-index:1;
-				margin-top: 30px;	
-}
-.admindatetime{
-	color:#EB4C4C;
-
-}
-
-.latestnewspara{
-				font-weight: normal;
-				text-align:left;
-}
-.readmorebutton{
-				padding: 5px 30px 5px 30px;
-				background-color:black;
-				color: #ffff;
-				font-weight: bold;
-				margin-right: 198px;				
-}
-.readmorebuttoncen{
-					background-color: #EB4C4C !important;
-					padding: 5px 30px 5px 30px;
-					background-color:black;
-					color: #ffff;
-					font-weight: bold;
-					border-color:#EB4C4C;
-					margin-right: 198px;
-}
-.twoinput{
-	background-color:#EB4C4C;
-	height: 140px;
-	margin-top: 90px;
-}
-.emailicon{
-	border:25px solid white;
-	color:#EB4C4C;
-	font-weight: bold;
-	background-color:white;
-	border-radius: 50%;
-	font-size: 25px;
-}
-.newletter{
-	color: #ffff;
+.donsay_column h5{
+	margin: 0px;
+	color: #fff;
+	font-size: 18px;
 	text-transform: uppercase;
-	color:#ffff;
-	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
 }
-.newletter::before{
+.donsay_column span{
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+/****************************************************************************/
+.latest_news_section {
+    margin-top: 5rem;
+}
+.latest_news_section h2{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+}
+.latest_news_section h2::before{
+				    content: "";
+				    border-top: 3px solid #f75e61;
+				    width: 60px;
+				    height: 55px;
+				    position: absolute;
+				    left: 46%;
+				    top: 38px;
+				    z-index: 1;
+}
+.latest_news_section p{
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+    padding: 10px 0px;
+}
+.news_colume{
+    text-align: left;
+}
+.news_colume img {
+    object-fit: cover;
+}
+.news_colume h4{
+    margin-top: 20px;
+	font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.news_colume h6{
+	font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.news_colume h6 span{
+	color:#f75e61;
+}
+.news_colume p{
+	color:#000;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 5px;
+}
+.news_colume button {
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color:#f75e61;
+    font-family: 'Montserrat', sans-serif;
+} 
+.news_colume button:hover{
+    background-color:#000;
+    transition: 1s;
+}  
+/************************************************************************************/
+.news_letter_section{
+		margin-top: 5rem;
+		background-color:#EB4C4C;
+		height: 140px;
+}
+.news_letter_section i{
+	font-size: 25px;
+    color: #f75e61;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 30px;
+   	margin-top: 1.8rem;
+}
+.news_letter_section h6{
+	margin-top: 1.9rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+}
+.news_letter_section h6::before{
 				content:"";
 				border-bottom: 2px solid #ffff;
 				width: 37px;
@@ -805,66 +784,68 @@ button.crd_btn_2:hover{
 				position: absolute;
 				left: auto;
 				z-index:1;
-				margin-top: -28px;
-}	
-.newletterpara{
-				color: #ffff;
-				font-weight: normal;
-				padding-top: 7px;
+				top: -30px
 }
-.icondiv{
-			padding-top: 35px;
+.news_letter_section p{
+	margin-bottom: 2px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
 }
-.writtingdiv{
-			padding-top: 35px;
+.news_letter_section label{
+		margin-top: 1.9rem;
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
 }
-.emailaddresspara{
-	padding-top: 35px;
-	color: #ffff;
-	font-weight: normal;
-}
-.inbox1{
+.news_letter_section input{
 	width: 100%;
-	height: 38px;
-	margin-top: -10px;
+	border: none;
+    padding: 6px 10px;
 }
-.subscribebtn{
-	width: 90%;
-	height: 38px;
-	background-color: black;
-	color: white;
-	font-weight: bold;
-	border-color: black;
-	margin-top: 67px;
+.news_letter_section:focus, input:focus{
+    outline: none;
 }
+.news_letter_section button {
+    margin-top: 53px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    padding: 8px 39px;
+}
+
+/***********************************************************************************/
+
 /*fotter*/
-.footer{
+.footer_section{
 				background-color:#211F1F;
-				height: 550px;
+				height: 500px;
 }
-.aboutcharity{
+.fotr_col h5{
 				text-transform: uppercase;
 				color:#ffff;
+				font-family: 'Montserrat', sans-serif;
 				margin-top: 70px;
-				margin-bottom: 30px;	
+				margin-bottom: 30px;
+				position: relative;
 }
-.aboutcharity::before{
-							content:"";
-							border-top: 2px solid #EB4C4C;
-							width: 85px;
-							position: absolute;
-							left: auto;
-							z-index:1;
-							margin-top: 28px;
-						}
-
-.footerpara{
+.fotr_col h5::before{
+					content:"";
+					border-top: 2px solid #EB4C4C;
+					width: 85px;
+					position: absolute;
+					left: auto;
+					top: 30px;
+					z-index:1;
+				}
+.fotr_col p{
 	color:#BCB8B8;
 	font-weight: normal;
 	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
 }
-.themscolor{
+.fotr_col p span{
 	color:#EB4C4C;
+	font-family: 'Roboto', sans-serif;
 }
 .inputbox1{
 			width:100%;
@@ -874,77 +855,63 @@ button.crd_btn_2:hover{
 			margin-top: 7px;
 			color: #ffff;
 }
-.inputbox2{
-			width: 100%;
-			height: 40px;
-			background-color:#211F1F;
-			border:2px solid #BCB8B8;
-			margin-top: 10px;
-			color: #ffff;
+.fotr_col_3 input{
+	width: 100%;
+	color:#BCB8B8;
+	background-color:#211F1F;
+	border: 1px solid #BCB8B8;
+	padding: 8px 15px;
 }
-.inputbox1::placeholder{
-					font-size: 16px;
-					text-align:left;
-					padding-left: 20px;} 
-.inputbox2::placeholder{
-					font-size: 16px;
-					text-align:left;
-					padding-left: 20px;
-} 
-
-.inputbox3{
-			width: 100%;
-			height: 100px;
-			background-color:#211F1F;
-			border:2px solid #BCB8B8;
-			margin-top: 10px;
-			color: #ffff;
+.fotr_col_3 textarea{
+	color:#BCB8B8;
+	background-color:#211F1F;
+	border: 1px solid #BCB8B8;
+	width: 100%;
+	padding: 7px 15px;
 }
-.inputbox3::placeholder{
-					font-size: 16px;
-					text-align:left;
-					padding-left: 15px;
-					margin-top: 12px; 
-					position: absolute;
-} 
-
-.sendbtn{
-	width: 120px;
-	height: 40px;
-	font-weight: bold;
-	color:#fff;
-	background-color:#EB4C4C;
-	border:none;
-	margin-top: 20px;
-	margin-bottom: 50px;
+textarea:focus, input:focus{
+    outline: none;
 }
-
-.footericon{
-	border:5px solid #BCB8B8;
-	background-color:#BCB8B8;
-	color: black;
-	border-radius: 50%;
-	margin-left: 4px;
+.fotr_col_3 textarea::placeholder{	
+	color: #BCB8B8;
 }
-.hrline{
-	color:#fff;
-	margin-top: 20px;
+.fotr_col_3 input::placeholder{
+	padding-top: -50px;
+	color: #BCB8B8;
 }
-.copyright{
-			color: #BCB8B8;
-			font-weight: normal;
-			padding-top: 20px;
-
+.fotr_col_3 input:nth-child(4) {
+  margin: 10px 0px;
 }
-.vwdesigned{
-			color: #BCB8B8;
-			text-align: end;
-			font-weight: normal;
-			padding-top: 20px;
+.fotr_col_3 button{
+    padding: 8px 45px;
+    color: #fff;
+    font-size: 15px;
+    background-color:#f75e61;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
-.lastcolor{
-	color: #EA8E8E;
-	font-size: 14px;
+.fotr_col_1 a i{
+		border:5px solid #BCB8B8;
+		background-color:#BCB8B8;
+		color: black;
+		border-radius: 50%;
+		margin-left: 4px;
 }
-
-/*Responce CSS Start*/
+.fotr_col_1 a i:hover{
+		border:5px solid #f75e61;
+		background-color:#f75e61;
+		color: #fff;
+		transition: 0.5s;
+}
+.copy_right_section{
+	justify-content: space-between;
+}
+.copy_right_section p{
+	    color: #BCB8B8;
+}
+.copy_right_section p span{
+	color:#f75e61;
+}
